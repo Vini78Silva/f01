@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+   /* font-family: "Poller One", serif;*/
+  }
+    
+  form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+      margin: 0 auto;
+  }
+  
+  .container{
+      background-color: #1A0C43;
+      width: 80vh;
+      height: 50vh;
+      border-radius: 1vh;
+  }
+  
+  .container > h1{ 
+      justify-content: center;
+      display: flex;
+      color: #ffff;
+  }
+  
+  
+  
+  
+  .container > .btn{
+      width: 20vh;
+      height: 5vh;
+      border-radius: 40px;
+      color: black;
+      align-items: center;
+      /*font-family: "Poller One", serif;*/
+  }
+
+.i1, .i2, .i3, .btn{
+    display: flex;
+    justify-content: center;
+}
