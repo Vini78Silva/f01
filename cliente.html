@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="cliente.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Cadastre um cliente</title>
 </head>
 <body>
@@ -12,28 +15,29 @@
 
             <h1>Cadastre um cliente</h1>
 
-            <div class="i1">
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Sobrenome">
+
+            <div class="inps">
+
+                <div class="i1">
+                    <input type="text" placeholder="Nome:" required>
+                    <input type="text" placeholder="Sobrenome:" required>
+                </div>
+                
+    
+    
+                <div class="i2">
+                    <input type="email" placeholder="Email:" required>
+                    <input type="tel" placeholder="Telefone:" required>
+                </div>
+                
+    
+    
+                <div class="i3">
+                    <input type="text" placeholder="Endereço:" required>
+                </div>
+                
             </div>
-            
 
-            <br><br>
-
-            <div class="i2">
-                <input type="email" placeholder="email">
-                <input type="tel" placeholder="telefone">
-            </div>
-            
-
-            <br><br>
-
-            <div class="i3">
-                <input type="text" placeholder="endereço">
-            </div>
-            
-
-            <br>
 
             <div class="btn">
                 <button>Finalizar cadastro</button>
