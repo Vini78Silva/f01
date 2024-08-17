@@ -70,6 +70,7 @@ body {
     width: 15vw;
     height: 8vh;
     cursor: pointer;
+    box-shadow: 5px 10px 15px 1px black;
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
