@@ -10,7 +10,7 @@
     <title>Cadastre um funcionario</title>
 </head>
 <body>
-    <form>
+    <form action="funcionario.php" method="POST">
         <div class="container">
 
             <h1>Cadastre um funcionário</h1>
@@ -19,26 +19,26 @@
             <div class="inps">
 
                 <div class="i1">
-                    <input type="text" placeholder="Nome:" required>
-                    <input type="text" placeholder="Sobrenome:" required>
+                    <input type="text" id="nome" name="nome" placeholder="Nome:" required>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome:" required>
                 </div>
                 
     
     
                 <div class="i2">
-                    <input type="text" placeholder="Nascimento: dd/mm/aa" required>
-                    <input type="text" placeholder="cargo:" required>
+                    <input type="text" id="dt_nascimento" name="dt_nascimento" placeholder="Nascimento: dd/mm/aa" required>
+                    <input type="text" id="cargo" name="cargo" placeholder="cargo:" required>
                 </div>
                 
     
                 <div class="i3">
-                    <input type="number" placeholder="salário:" required>
-                    <input type="text" placeholder="Adimissão: dd/mm/aa" required>
+                    <input type="number" id="salario" name="salario" placeholder="salário:" required>
+                    <input type="text" id="dt_admissao" name="dt_admissao" placeholder="Adimissao: dd/mm/aa" required>
                 </div>
     
                 <div class="i4">
-                    <input type="password" placeholder="senha:" required>
-                    <input type="password" placeholder="confirmar senha:" required>
+                    <input type="password"  placeholder="senha:" required>
+                    <input type="password" id="senha" name="senha" placeholder="confirmar senha:" required>
                 </div>
                 
                 
